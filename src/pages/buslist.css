@@ -1,0 +1,161 @@
+/* buslist.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  width:100%;
+  right:100px;
+}
+
+.left_section {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.left_section h6 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.filter_div, .points_div {
+  margin-bottom: 20px;
+}
+.buslist-container {
+  display: flex;
+}
+
+.left_section {
+  flex: 1;
+  max-width: 300px;
+}
+
+.right_section {
+  flex: 3;
+  padding-left: 20px; /* Optional: Adds some space between the left and right sections */
+}
+
+/* Ensure the bus details box styles are included */
+.bus_details_box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.book_now_btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.book_now_btn:hover {
+  background-color: #0056b3;
+}
+
+
+.filter_div p, .points_div p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.filter_div label, .points_div label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter_div label input, .points_div label input {
+  margin-right: 10px;
+
+}
+
+.points_div label input[type="text"] {
+  padding: 5px;
+  flex: 1;
+}
+
+.right_section {
+  flex: 3;
+  padding: 20px;
+}
+
+#details_sorting_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#details_sorting_heading p {
+  margin: 0 10px;
+}
+
+#details_sorting_heading .bold {
+  font-weight: bold;
+}
+
+#bus_details_section .bus_details_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.bus_info {
+  flex: 1;
+}
+
+.bus_info p {
+  margin: 5px 0;
+}
+
+.book_now_btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  align-self: flex-start;
+}
+.sort-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem; /* Adjust as needed */
+}
+
+.sort-label {
+  font-weight: bold;
+  margin-right: 1rem; /* Adjust as needed */
+}
+
+.sort-options {
+  display: flex;
+}
+
+.sort-option {
+  background-color: #f0f0f0; /* Light gray background */
+  border-radius: 0.5rem; /* Rounded corners */
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+  margin-right: 1rem; /* Adjust spacing between options */
+}
+
+.sort-option:last-child {
+  margin-right: 0; /* Remove margin on the last option */
+}
+
+.sort-option p {
+  font-size: 14px; /* Adjust font size as needed */
+  margin: 0; /* Remove default margin */
+}
+

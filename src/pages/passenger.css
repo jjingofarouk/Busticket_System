@@ -1,0 +1,293 @@
+#main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  background-color: #f5f5f5;
+  margin: 3%;
+}
+
+#container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+.passenger_details h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.passenger_information {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.passenger_information img {
+  width: 40px;
+  height: 40px;
+}
+
+.passenger_information span {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.box1 {
+  margin-top: 20px;
+}
+
+.class1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.class1 .seat {
+  font-weight: bold;
+}
+
+.name label {
+  font-size: 16px;
+}
+
+#inputName {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.gender label,
+.age label {
+  font-size: 16px;
+}
+
+.gender_bottom {
+  display: flex;
+  align-items: center;
+}
+
+.gender_bottom div {
+  margin-right: 10px;
+}
+
+.gender_bottom label {
+  margin-left: 5px;
+}
+
+#input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#contactDetails {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#contactDetails img {
+  width: 24px;
+  height: 24px;
+}
+
+#emailBox {
+  margin-top: 10px;
+}
+
+.ticket {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.email label,
+.phone label {
+  font-size: 16px;
+}
+
+#email {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.phoneNo {
+  display: flex;
+  align-items: center;
+}
+
+.phoneNo .border {
+  padding: 8px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ccc;
+  border-right: none;
+}
+
+#phoneNumber {
+  flex: 1;
+  padding: 8px;
+  border-radius: 0 4px 4px 0;
+  border: 1px solid #ccc;
+}
+
+.passenger_info_content_block {
+  margin-top: 20px;
+}
+
+.rucDetails_block {
+  margin-top: 10px;
+}
+
+.rucLabel {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox_css .checkmark {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #ccc;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.whatsApp_block {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.whatsApp_block .checkmark {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #ccc;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.icon-whatsApp {
+  width: 24px;
+  height: 24px;
+  /* background-image: url('../images/whatsapp-icon.png'); */
+  background-size: cover;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.insurance-block {
+  margin-top: 20px;
+}
+
+.insurance-msg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.insurance-msg .bcp_tcp_title {
+  display: flex;
+  align-items: center;
+}
+
+.insurance-msg .bcp_tcp_title img {
+  margin-right: 10px;
+}
+
+.insurance-msg .tnc_link {
+  font-size: 12px;
+  color: blue;
+}
+
+.benefits-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.benefits-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.benefits-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.benefits-desc {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.insurance_container {
+  margin-top: 20px;
+}
+
+.bottomRow {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.ins-container {
+  display: flex;
+  align-items: center;
+}
+
+.ins-container .ins_price {
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.ins-container .noOfPsng {
+  margin-left: 5px;
+}
+
+.ins-container a {
+  margin-left: 5px;
+  font-size: 12px;
+  color: blue;
+}
+
+.proceed-button {
+  background-color: #3d862b;
+  color: rgb(26, 16, 16);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(39, 83, 39);
+}
+
+.proceed-button:hover {
+  background-color: #cc0000;
+}
